@@ -1,0 +1,179 @@
+.top1{
+    flex: 1;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.keep{
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    font-size: 25px;
+}
+.top2{
+    background-color: rgb(255, 255, 255);
+    flex: 6;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}.top3{
+    flex: 2;
+    padding-left: 80px;
+    padding-top: 8px;
+}
+.refresh{
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    font-size: 20px;
+}
+.menu{
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    font-size: 20px;
+    margin-left: 60px;
+}
+.searchbar:hover{
+    box-shadow: 1px 1px 1px 0px;
+}
+.sea1{
+    display: inline-block;
+    position: relative;
+    height: 30px;
+    width:20px;
+    background-color: rgb(241, 243, 245);
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 15px;
+    padding-right: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius:10px;
+}
+.searchbar{
+    margin: 10px;
+    height:40px;
+    width: 80%;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius:10px;
+    border: none;
+    background-color: rgb(241, 243, 245);
+    color: grey;
+    margin-left: 0px;
+    border-style: none;
+    outline: none;
+}
+.top2:hover{
+    border-style: none;
+}
+.todo1 {
+    width: 50px;
+    height: 100vh;
+}
+.todo1{
+ overflow-x: hidden;
+}
+.todo1 :hover .bu1{
+ overflow-x: auto;
+}
+.todo1:hover{
+    display: inline-block;
+    width: 225px;
+    
+    box-shadow: 0px 1px 10px 2px gray;
+}
+.bu2{
+    display: inline-block;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    border-radius: 30px;
+    height: 50px;
+    border-style: none;
+    background-color: white;
+}
+.bu2:hover{
+    background-color: rgb(240, 235, 235);
+}
+.bu1{
+    display:inline-block;
+    height: 45px;
+    width: 120px;
+    margin: 7px;
+    padding: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border:none;
+    font-weight: bold;
+    background-color: white;
+}
+.bu1:hover{
+    background-color:rgb(255, 225, 169);
+}
+
+.sub-grid1{
+     display: grid;
+     grid-template-columns: 50px 1fr;
+     column-gap: 0px;
+     align-items: center;
+}
+.hamber{
+    height: 25px;
+}
+.todobar{
+    height: 100px;
+    display: block;
+}
+.todolist{
+    display: block;
+}
+.main{
+    display: inline;
+}
+.main-grid{
+    display: grid;
+    grid-template-columns: 226px 1fr;
+}
+.textbox {
+  margin-bottom: 10px;
+}
+.displayBox {
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.lister{
+    margin-left: 20px;
+    margin-top: 100px;
+    width: 500px;
+    height: 28px;
+    font-size:18px ;
+}
+.label{
+    margin-left:150px ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: grey;
+    font-size: 20px;
+}
+.add{
+    margin-left: 400px;
+    height: 30px;
+    width: 60px;
+    margin-right: 10px;
+    border-radius: 6px;
+    background-color: rgb(241, 243, 245);
+    border: none;
+}
+.add:hover{
+    background-color:rgb(228, 225, 225);
+}
+.button{
+    height: 30px;
+    width: 60px;
+    margin: 10px;
+    border-radius: 6px;
+    border: none;
+    background-color: rgb(241, 243, 245);
+}
+.button:hover{
+    background-color:rgb(228, 225, 225);
+}

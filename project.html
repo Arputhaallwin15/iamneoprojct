@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html><head>
+    <title>replica</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+    <div style ="display : flex; flex-direction: row; padding: 10px; height: 40px;">
+    <div class="top1">
+        <svg class="hamber" focusable="false" viewBox="0 0 24 24"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path></svg>
+        <img class="gb_Mc gb_Md" src="https://www.gstatic.com/images/branding/product/1x/keep_2020q4_48dp.png" srcset="https://www.gstatic.com/images/branding/product/1x/keep_2020q4_48dp.png 1x, https://www.gstatic.com/images/branding/product/2x/keep_2020q4_48dp.png 2x " alt="" aria-hidden="true" role="presentation" style="width:40px;height:40px">
+        <span class="keep">Keep</span>
+    </div>
+    <div class="top2">
+        <svg class="sea1" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
+        <input class="searchbar"  type="text" placeholder="Search" >
+    </div>
+    <div class="top3">
+        <span class="refresh">Refresh</span>
+        <span class="menu"> Menu</span>
+     </div>
+</div>
+<hr style="margin: 0px;">
+<div class="main-grid">
+<div class="todo1">
+    <div class="sub-grid1">
+        <button class="bu2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M9 21c0 .55.45 1 1 1h4c.55 0 1-.45 1-1v-1H9v1zm3-19C8.14 2 5 5.14 5 9c0 2.38 1.19 4.47 3 5.74V17c0 .55.45 1 1 1h6c.55 0 1-.45 1-1v-2.26c1.81-1.27 3-3.36 3-5.74 0-3.86-3.14-7-7-7zm2.85 11.1l-.85.6V16h-4v-2.3l-.85-.6A4.997 4.997 0 0 1 7 9c0-2.76 2.24-5 5-5s5 2.24 5 5c0 1.63-.8 3.16-2.15 4.1z"></path></svg></button>
+    <button class="bu1">Notes</button>
+    <button class="bu2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M18 17v-6c0-3.07-1.63-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.64 5.36 6 7.92 6 11v6H4v2h16v-2h-2zm-2 0H8v-6c0-2.48 1.51-4.5 4-4.5s4 2.02 4 4.5v6zm-4 5c1.1 0 2-.9 2-2h-4c0 1.1.9 2 2 2z"></path></svg></button>
+    <button class="bu1">Remainders</button>
+    <button class="bu2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20.41 4.94l-1.35-1.35c-.78-.78-2.05-.78-2.83 0L13.4 6.41 3 16.82V21h4.18l10.46-10.46 2.77-2.77c.79-.78.79-2.05 0-2.83zm-14 14.12L5 19v-1.36l9.82-9.82 1.41 1.41-9.82 9.83z"></path></svg></button>
+    <button class="bu1">Edit labels</button>
+    <button class="bu2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20.54 5.23l-1.39-1.68C18.88 3.21 18.47 3 18 3H6c-.47 0-.88.21-1.16.55L3.46 5.23C3.17 5.57 3 6.02 3 6.5V19c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V6.5c0-.48-.17-.93-.46-1.27zM6.24 5h11.52l.83 1H5.42l.82-1zM5 19V8h14v11H5zm11-5.5l-4 4-4-4 1.41-1.41L11 13.67V10h2v3.67l1.59-1.59L16 13.5z"></path></svg></button>
+    <button class="bu1">Archive</button>
+    <button class="bu2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M15 4V3H9v1H4v2h1v13c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V6h1V4h-5zm2 15H7V6h10v13z"></path><path d="M9 8h2v9H9zm4 0h2v9h-2z"></path></svg></button>
+    <button class="bu1">Trash</button>
+    </div>
+    </div>
+    <div class="main">
+        <div class="todobar">
+            <div class="textbox">
+                <label class="label" for="inputText">Enter your list :</label>
+                <input class="lister" type="text" id="inputText" placeholder="what's today!">
+              </div>
+              <button class="add" onclick="addText()">Add</button>
+              <button class="button" onclick="readText()">Read</button>
+              <button class="button" onclick="updateText()">Update</button>
+              <button class="button" onclick="deleteText()">Delete</button>
+              <div id="displayContainer"></div>
+
+  <script>
+    function addText() {
+      var inputText = document.getElementById("inputText").value;
+      var displayContainer = document.getElementById("displayContainer");
+      var displayBox = document.createElement("div");
+      displayBox.className = "displayBox";
+      displayBox.innerHTML = inputText;
+      displayContainer.appendChild(displayBox);
+      localStorage.setItem("text", inputText);
+    }
+
+    function readText() {
+      var inputText = localStorage.getItem("text");
+      var displayContainer = document.getElementById("displayContainer");
+      var displayBox = document.createElement("div");
+      displayBox.className = "displayBox";
+      displayBox.innerHTML = inputText;
+      displayContainer.appendChild(displayBox);
+    }
+
+    function updateText() {
+      var inputText = document.getElementById("inputText").value;
+      localStorage.setItem("text", inputText);
+    }
+
+    function deleteText() {
+      localStorage.removeItem("text");
+      var displayContainer = document.getElementById("displayContainer");
+      displayContainer.innerHTML = "";
+    }
+  </script>
+        </div>
+    </div>
+    </div>
+<script>
+    let s=document.querySelector(".searchbar")
+    s.addEventListener("click",(e)=>{
+        console.log("I am watching YOU")
+    })
+</script>
+</body>
+</html>
